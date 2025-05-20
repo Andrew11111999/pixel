@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'media.apps.MediaConfig',
     'mldata.apps.MldataConfig',
     'pricing.apps.PricingConfig',
-    'rest_framework'
+    'homepage.apps.HomepageConfig'
 ]
 
 MIDDLEWARE = [

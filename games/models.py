@@ -109,3 +109,5 @@ class GameSimilarity(models.Model):
 
     def __str__(self):
         return f'{self.game.slug} ~ {self.related_game.slug}: {self.similarity_percent}%'
+
+
