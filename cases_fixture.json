@@ -1,0 +1,23 @@
+[
+    {
+        "model": "cases.case",
+        "pk": 1,
+        "fields": {
+            "name": "Дело №1: Уголовное дело"
+        }
+    },
+    {
+        "model": "cases.case",
+        "pk": 2,
+        "fields": {
+            "name": "Дело №2: Гражданский иск"
+        }
+    },
+    {
+        "model": "cases.case",
+        "pk": 3,
+        "fields": {
+            "name": "Дело №3: Административное дело"
+        }
+    }
+]

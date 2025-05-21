@@ -1,0 +1,23 @@
+[
+    {
+        "model": "games.platform",
+        "pk": 1,
+        "fields": {
+            "name": "PC"
+        }
+    },
+    {
+        "model": "games.platform",
+        "pk": 2,
+        "fields": {
+            "name": "PS5"
+        }
+    },
+    {
+        "model": "games.platform",
+        "pk": 3,
+        "fields": {
+            "name": "Xbox Series X"
+        }
+    }
+]

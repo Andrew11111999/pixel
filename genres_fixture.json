@@ -1,0 +1,23 @@
+[
+    {
+        "model": "games.genre",
+        "pk": 1,
+        "fields": {
+            "name": "Экшен"
+        }
+    },
+    {
+        "model": "games.genre",
+        "pk": 2,
+        "fields": {
+            "name": "Приключение"
+        }
+    },
+    {
+        "model": "games.genre",
+        "pk": 3,
+        "fields": {
+            "name": "РПГ"
+        }
+    }
+]

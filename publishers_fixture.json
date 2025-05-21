@@ -1,0 +1,23 @@
+[
+  {
+    "model": "games.publisher",
+    "pk": 1,
+    "fields": {
+      "name": "Издатель X"
+    }
+  },
+  {
+    "model": "games.publisher",
+    "pk": 2,
+    "fields": {
+      "name": "Издатель Y"
+    }
+  },
+  {
+    "model": "games.publisher",
+    "pk": 3,
+    "fields": {
+      "name": "Издатель Z"
+    }
+  }
+]

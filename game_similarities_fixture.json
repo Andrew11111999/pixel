@@ -1,0 +1,20 @@
+[
+    {
+        "model": "games.gamesimilarity",
+        "pk": 1,
+        "fields": {
+            "game": "game-1",
+            "related_game": "game-2",
+            "similarity_percent": 75
+        }
+    },
+    {
+        "model": "games.gamesimilarity",
+        "pk": 2,
+        "fields": {
+            "game": "game-2",
+            "related_game": "game-1",
+            "similarity_percent": 75
+        }
+    }
+]

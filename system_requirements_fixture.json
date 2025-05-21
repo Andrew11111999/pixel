@@ -1,0 +1,24 @@
+[
+    {
+        "model": "games.systemrequirement",
+        "pk": 1,
+        "fields": {
+            "cpu": "Intel Core i5",
+            "gpu": "NVIDIA GTX 1060",
+            "ram": "8 GB",
+            "ssd": "50 GB",
+            "os": "Windows 10"
+        }
+    },
+    {
+        "model": "games.systemrequirement",
+        "pk": 2,
+        "fields": {
+            "cpu": "AMD Ryzen 5",
+            "gpu": "NVIDIA GTX 1070",
+            "ram": "16 GB",
+            "ssd": "70 GB",
+            "os": "Windows 10"
+        }
+    }
+]

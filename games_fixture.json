@@ -1,0 +1,83 @@
+[
+  {
+    "model": "games.game",
+    "pk": "game-1",
+    "fields": {
+      "title": "Игра A",
+      "slug": "igra-a",
+      "slogan": "Лучшее приключение",
+      "short_description": "Краткое описание Игры A.",
+      "description": "Полное описание Игры A.",
+      "release_date": "2023-10-01",
+      "is_featured": true,
+      "favourite": false,
+      "is_top_in_year": true,
+      "is_top_in_genre": false,
+      "trending": true,
+      "metacritic_score": 85,
+      "ign_score": 8,
+      "score": 4.5,
+      "media_cover_image": "http://example.com/cover-a.jpg",
+      "media_background_video": "http://example.com/video-a.mp4",
+      "screenshots": "http://example.com/screenshot1.jpg,http://example.com/screenshot2.jpg",
+      "trailers": "http://example.com/trailer-a.mp4",
+      "alt_genres": "Боевик, Стратегия",
+      "developers": [
+        1
+      ],
+      "publishers": [
+        1
+      ],
+      "genres": [
+        1,
+        2
+      ],
+      "platforms": [
+        1,
+        2,
+        3
+      ],
+      "system_requirements": 1
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": "game-2",
+    "fields": {
+      "title": "Игра B",
+      "slug": "igra-b",
+      "slogan": "Захватывающее путешествие",
+      "short_description": "Краткое описание Игры B.",
+      "description": "Полное описание Игры B.",
+      "release_date": "2023-11-01",
+      "is_featured": false,
+      "favourite": true,
+      "is_top_in_year": false,
+      "is_top_in_genre": true,
+      "trending": false,
+      "metacritic_score": 90,
+      "ign_score": 9,
+      "score": 4.8,
+      "media_cover_image": "http://example.com/cover-b.jpg",
+      "media_background_video": "http://example.com/video-b.mp4",
+      "screenshots": "http://example.com/screenshot3.jpg,http://example.com/screenshot4.jpg",
+      "trailers": "http://example.com/trailer-b.mp4",
+      "alt_genres": "Головоломка",
+      "developers": [
+        2
+      ],
+      "publishers": [
+        2
+      ],
+      "genres": [
+        2,
+        3
+      ],
+      "platforms": [
+        2,
+        3
+      ],
+      "system_requirements": 2
+    }
+  }
+]

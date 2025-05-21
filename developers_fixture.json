@@ -1,0 +1,23 @@
+[
+    {
+        "model": "games.developer",
+        "pk": 1,
+        "fields": {
+            "name": "Разработчик A"
+        }
+    },
+    {
+        "model": "games.developer",
+        "pk": 2,
+        "fields": {
+            "name": "Разработчик B"
+        }
+    },
+    {
+        "model": "games.developer",
+        "pk": 3,
+        "fields": {
+            "name": "Разработчик C"
+        }
+    }
+]
