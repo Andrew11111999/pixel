@@ -4,7 +4,7 @@ from .models import MediaLink
 
 def media_list_api(request):
     """API: Список всех медиа ссылок"""
-    medias = Media.objects.select_related('game').all()
+    medias = MediaLink.objects.select_related('game').all()
     data = [
         {
             'id': media.id,
@@ -22,7 +22,7 @@ def media_list_api(request):
 
 def media_detail_api(request, pk):
     """API: Детали конкретного медиа по ID"""
-    media = get_object_or_404(Media, pk=pk)
+    media = get_object_or_404(MediaLink, pk=pk)
     data = {
         'id': media.id,
         'game': {

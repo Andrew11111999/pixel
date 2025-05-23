@@ -1,0 +1,38 @@
+[
+  {
+    "model": "media.medialink",
+    "pk": 1,
+    "fields": {
+      "game": "game-1",
+      "media_type": "cover_image",
+      "url": "https://example.com/images/game-1-cover.jpg"
+    }
+  },
+  {
+    "model": "media.medialink",
+    "pk": 2,
+    "fields": {
+      "game": "game-1",
+      "media_type": "background_video",
+      "url": "https://example.com/videos/game-1-bg.mp4"
+    }
+  },
+  {
+    "model": "media.medialink",
+    "pk": 3,
+    "fields": {
+      "game": "game-2",
+      "media_type": "screenshot",
+      "url": "https://example.com/images/game-2-screenshot1.png"
+    }
+  },
+  {
+    "model": "media.medialink",
+    "pk": 4,
+    "fields": {
+      "game": "game-2",
+      "media_type": "trailer",
+      "url": "https://example.com/videos/game-2-trailer.mp4"
+    }
+  }
+]

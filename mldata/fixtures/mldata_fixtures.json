@@ -1,0 +1,94 @@
+[
+  {
+    "model": "mldata.mood",
+    "pk": 1,
+    "fields": {
+      "name": "Веселое"
+    }
+  },
+  {
+    "model": "mldata.mood",
+    "pk": 2,
+    "fields": {
+      "name": "Мрачное"
+    }
+  },
+  {
+    "model": "mldata.gamegenremldata",
+    "pk": 1,
+    "fields": {
+      "game": "game-1",
+      "genre": 1,
+      "weight": 0.8,
+      "rating": 4.5,
+      "rating_year": 4.7
+    }
+  },
+  {
+    "model": "mldata.gamegenremldata",
+    "pk": 2,
+    "fields": {
+      "game": "game-1",
+      "genre": 2,
+      "weight": 0.2,
+      "rating": 3.5,
+      "rating_year": 3.8
+    }
+  },
+  {
+    "model": "mldata.gamemood",
+    "pk": 1,
+    "fields": {
+      "game": "game-1",
+      "mood": 1
+    }
+  },
+  {
+    "model": "mldata.gamemood",
+    "pk": 2,
+    "fields": {
+      "game": "game-2",
+      "mood": 2
+    }
+  },
+  {
+    "model": "mldata.gamesubgenremldata",
+    "pk": 1,
+    "fields": {
+      "game": "game-1",
+      "subgenre": "Платформер",
+      "weight": 0.6,
+      "rating": 4.0,
+      "rating_year": 4.1
+    }
+  },
+  {
+    "model": "mldata.gamesubgenremldata",
+    "pk": 2,
+    "fields": {
+      "game": "game-2",
+      "subgenre": "РПГ",
+      "weight": 0.7,
+      "rating": 4.5,
+      "rating_year": 4.6
+    }
+  },
+  {
+    "model": "mldata.gameplatformmldata",
+    "pk": 1,
+    "fields": {
+      "game": "game-1",
+      "platform": 1,
+      "rating": 4.5
+    }
+  },
+  {
+    "model": "mldata.gameplatformmldata",
+    "pk": 2,
+    "fields": {
+      "game": "game-2",
+      "platform": 2,
+      "rating": 4.2
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "model": "pricing.originprice",
+        "pk": 1,
+        "fields": {
+            "origin_name": "Steam",
+            "buy_link": "https://store.steampowered.com/app/123456",
+            "price": "29.99",
+            "game": "game-1"
+        }
+    },
+    {
+        "model": "pricing.originprice",
+        "pk": 2,
+        "fields": {
+            "origin_name": "Epic Games Store",
+            "buy_link": "https://www.epicgames.com/store/en-US/p/game-name",
+            "price": "34.99",
+            "game": "game-2"
+        }
+    },
+    {
+        "model": "pricing.originprice",
+        "pk": 3,
+        "fields": {
+            "origin_name": "GOG",
+            "buy_link": "https://www.gog.com/game/game_name",
+            "price": "27.99",
+            "game": "game-2"
+        }
+    },
+    {
+        "model": "pricing.pricing",
+        "pk": 1,
+        "fields": {
+            "price": "29.99",
+            "game": "game-1"
+        }
+    },
+    {
+        "model": "pricing.pricing",
+        "pk": 2,
+        "fields": {
+            "price": "39.99",
+            "game": "game-1"
+        }
+    },
+    {
+        "model": "pricing.pricing",
+        "pk": 3,
+        "fields": {
+            "price": "34.99",
+            "game": "game-2"
+        }
+    }
+]
