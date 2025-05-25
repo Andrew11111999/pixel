@@ -19,4 +19,4 @@ def add_email_to_case_mailchimp_list(email: str, case_id: Union[int, str]):
     add_mailchimp_email_with_tag(audience_name='CASES',
                                  email=email,
                                  tag=f'Case {case.name}')
-    CaseMailingList.objects.get_or_create(email=email)
+    CaseMailingList.objects.get_or_create(email=email, case=case)

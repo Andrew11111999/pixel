@@ -25,7 +25,7 @@ def add_email_to_common_mailchimp_list_view(request):
 
 @csrf_exempt
 @require_POST
-def add_email_to_case_mailchimp_list_view(request):
+def add_email_to_case_mailchimp_list_view(request, pk):
     """Веб-сервис, добавляющий email в лист рассылок по конкретному делу"""
     try:
         data = json.loads(request.body)
@@ -37,9 +37,6 @@ def add_email_to_case_mailchimp_list_view(request):
     if not email:
         return JsonResponse({'success': False, 'message': 'Передайте email'}, status=400)
 
-    if not case_id:
-        return JsonResponse({'success': False, 'message': 'Передайте case_id'}, status=400)
-
-    add_email_to_case_mailchimp_list(email=email, case_id=case_id)
+    add_email_to_case_mailchimp_list(email=email, case_id=pk)
 
     return JsonResponse({'success': True})
