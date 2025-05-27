@@ -62,7 +62,7 @@ class SystemRequirement(models.Model):
 
 class Game(models.Model):
     """Модель, представляющая игру."""
-    id = models.CharField(max_length=50, primary_key=True)
+    id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=255, verbose_name='Название игры')
     slug = models.SlugField(unique=True, verbose_name='Слаг игры')
     slogan = models.CharField(max_length=255, blank=True, verbose_name='Слоган')
